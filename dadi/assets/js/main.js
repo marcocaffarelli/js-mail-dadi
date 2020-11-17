@@ -11,7 +11,7 @@ btnPlay.addEventListener('click', function() {
   numeroComputer.innerHTML = numeroDadoComputer + " Numero Computer"
   if (numeroDadoUtente > numeroDadoComputer) {
     // console.log( "Complimenti hai visto");
-    messaggioRisultato = "Complimenti hai visto"
+    messaggioRisultato = "Complimenti hai vinto"
   } else if(numeroDadoUtente < numeroDadoComputer){
     // console.log("Mi dispiace hai perso");
     messaggioRisultato = "Mi dispiace hai perso"
