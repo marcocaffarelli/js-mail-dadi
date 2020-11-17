@@ -3,10 +3,10 @@ var risultato = document.getElementById("Risultato_dadi");
 var numeroUtente = document.getElementById("numero_utente");
 var numeroComputer = document.getElementById("numero_computer");
 btnPlay.addEventListener('click', function() {
-  var numeroDadoUtente = Math.floor(Math.random() *5) + 1;
+  var numeroDadoUtente = Math.floor(Math.random() *6) + 1;
   // console.log(numeroDadoUtente);
   numeroUtente.innerHTML = numeroDadoUtente + " Il Tuo Numero"
-  var numeroDadoComputer = Math.floor(Math.random() *5) + 1;
+  var numeroDadoComputer = Math.floor(Math.random() *6) + 1;
   // console.log(numeroDadoComputer);
   numeroComputer.innerHTML = numeroDadoComputer + " Numero Computer"
   if (numeroDadoUtente > numeroDadoComputer) {
